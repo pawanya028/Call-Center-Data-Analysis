@@ -1,103 +1,102 @@
-**📊 Call Center Data Analysis (Excel Project)**
+ # 📞 Call Center Performance Analysis (Excel Dashboard Case Study)
 
-**📝 Project Overview**
+![Excel](https://img.shields.io/badge/Tool-Microsoft_Excel-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Category](https://img.shields.io/badge/Project-Type:Dashboard-blue)
 
-This project is an Excel dashboard analyzing call center performance for different representatives, locations, and customer segments.
-The dashboard provides insights into call volumes, revenue, average duration, customer satisfaction ratings, and gender-based trends.
+---
 
-The goal was to transform raw call log data into meaningful business insights using Excel’s advanced features.
+## 📝 Project Overview
+This project analyzes **call center performance for 2023**, focusing on representatives’ efficiency, customer satisfaction, and operational metrics.  
+The goal was to transform raw call log data into an **interactive Excel dashboard** that highlights key performance indicators and actionable insights.
 
+---
 
-**📂 Dataset**
+## 📂 Dataset
+The dataset contains detailed call center logs with the following fields:
 
-The dataset includes call center records with the following fields:
+- **Call Number** – Unique ID for each call  
+- **Representative** – Employee handling the call  
+- **Date of Call** – Timestamp of each call  
+- **Duration (seconds)** – Total call length  
+- **Purchase Amount (₹)** – Revenue generated from the call  
+- **Satisfaction Rating (1–5)** – Customer feedback score  
+- **Gender & City** – Customer demographic details  
 
-**Call ID** – Unique identifier for each call
+---
 
-**Representative** – Assigned call center employee
+## 📊 Dashboard Features
 
-**Date & Time** – When the call was made
+### **KPIs (Key Performance Indicators)**
+📞 **Total Calls:** 1,000  
+💰 **Total Revenue:** ₹96,623  
+⏱️ **Total Duration:** 89,850 seconds  
+⭐ **Average Rating:** 4.0  
+😊 **Happy Calls:** 307  
 
-**Duration (seconds)** – Total call length
+### **Visuals & Charts**
+- **Calls by Month** – monthly call volume trend  
+- **Calls by Day of Week** – workload distribution  
+- **Calls by Representative** – agent performance comparison  
+- **Customer Ratings Distribution** – satisfaction breakdown  
+- **Female vs Male Callers** – gender-based insights  
 
-**Customer Rating (1–5)** – Feedback score from customer
+### **Filters & Interactivity**
+- **Representative Filter** → enables performance drill-down  
+- **Month Filter** → compare seasonal performance  
+- **Dynamic KPIs** → automatically update with filters  
 
-**Gender**– Male/Female of the caller
+---
 
-**Revenue Generated (₹)** – Amount earned from the call
+## ⚙️ Tools & Techniques
 
+This project demonstrates advanced Excel analytics skills:
 
-**📊 Dashboard Features**
+- **Data Cleaning:** Using Power Query to remove duplicates and fix errors  
+- **Pivot Tables:** Summarized data for analysis and aggregation  
+- **Pivot Charts:** Created visual trends and performance comparisons  
+- **Conditional Formatting:** Highlighted top/bottom performing representatives  
+- **Interactive Dashboard Design:** Combined KPIs, charts, and slicers for insights  
 
-**KPIs (Key Performance Indicators):**
+---
 
-📞 Total Calls: 1,000
+## 🚀 Key Insights
+📈 **Peak Call Volume:** March recorded the highest call count (31 calls).  
+🏆 **Top Performer:** Representative **R02** generated the highest revenue (~₹20.6K).  
+⭐ **Customer Satisfaction:** Average rating of **4.0**, showing strong service quality.  
+👩 **Demographics:** Female customers reported slightly higher satisfaction ratings.  
+📅 **Workload Pattern:** Monday to Friday steady; Saturday saw the lowest volume.  
 
-💰 Total Revenue: ₹20,104
+---
 
-⏱️ Total Duration: 89,850 seconds
+## 📘 Project Files
 
-⭐ Average Rating: 4.0
+| File | Description |
+|------|-------------|
+| [Calls_Center_Report.xlsx](Calls_Center_Report.xlsx) | Full interactive Excel dashboard |
+| [Dashboard.png](Dashboard.png) | Dashboard snapshot for preview |
+| [Call_Center_Case_Brief.pdf](Call_Center_Case_Brief.pdf) | One-page company-style case brief |
 
-😊 Happy Calls: 307
+---
 
-**Visuals & Charts:**
+## 📸 Dashboard Snapshot
+Here’s a preview of the final dashboard:  
+![Dashboard](Dashboard.png)
 
-Calls by Month (trend analysis)
+---
 
-Calls by Day of Week (workload patterns)
+## 🎯 What I Learned
+- Building **interactive Excel dashboards** combining visuals and KPIs  
+- Using **Power Query** for data cleaning and automation  
+- Designing reports with **visual storytelling and data insights**  
+- Gaining understanding of **customer satisfaction & performance metrics**
 
-Calls by Representative (performance comparison)
+---
 
-Ratings Distribution (customer satisfaction)
+## 👤 Author
+👨‍💻 **Created by:** Pawan Yadav  
+📧 Email: [pawanya28@gmail.com](mailto:pawanya28@gmail.com)  
+🔗 [LinkedIn](www.linkedin.com/in/pawan-yadav-b59826383)
 
-Female vs Male Callers (demographic split)
+---
 
-**Filters & Slicers:**
-
-Representative filter → enables drill-down by employee
-
-
-
-**⚙️ Tools & Techniques**
-
-This project demonstrates practical Excel analytics skills:
-
-Data Cleaning → handled missing values, duplicates, and inconsistencies using Power Query
-
-Pivot Tables → aggregated data for KPIs and drill-down insights
-
-Pivot Charts → visualized trends and comparisons
-
-Conditional Formatting → highlighted key performance gaps
-
-Interactive Dashboard Design → combined visuals, KPIs, and slicers for user-friendly reporting
-
-
-**🚀 Key Insights**
-
-📈 Peak call volume was observed in March (31 calls).
-
-🏆 Representative R02 generated the highest revenue (~₹20.6K).
-
-👩 Female customers showed slightly higher satisfaction ratings than male callers.
-
-⭐ Average rating across calls was 4.0, showing overall positive customer sentiment.
-
-📊 Monday to Friday call volumes were consistent, but Saturday had the lowest activity.
-
-
-**📸 Dashboard Snapshot**
-
-Here’s a preview of the final dashboard:
-<img width="1504" height="662" alt="image" src="https://github.com/user-attachments/assets/54d5289f-e01a-4331-b316-549225ff1b34" />
-
-
-
-(If the image doesn’t load, open the /images/ folder in this repo.)
-
-
-**👤 Author**
-
-👨‍💻 Created by **Pawan**  
-📧 Email:[ pawanya28@gmail.com ]-🔗 [LinkedIn Profile](www.linkedin.com/in/pawan-yadav-b59826383) 
